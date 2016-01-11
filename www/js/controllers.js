@@ -20,5 +20,13 @@ app.controller("YelpController", function ($scope, YelpService) {
 				$scope.$broadcast('scroll.infiniteScrollComplete');
 			});
 		}
+	};
+
+	$scope.getDirections = function(cafe) {
+		console.log("Getting Directions");
+	};
+
+	$scope.openMap = function(cafe) {
+		console.log("Opening cafe in maps app")
 	}
 });
