@@ -22,5 +22,5 @@ app.run(function ($ionicPlatform) {
 });
 
 app.config(function ($httpProvider) {
-	$httpProvider.defaults.headers.common['Authorization'] = 'Token <REPLACE_WITH_YOUR_TOKEN>';
+	$httpProvider.defaults.headers.common['Authorization'] = 'Token ef1c7879a2b1383231ab34cc0fecb93c315c857e';
 });
