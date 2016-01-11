@@ -67,6 +67,12 @@
 				</p >
 			</ion-item >
 		</ion-list >
+
+		<ion-infinite-scroll
+			ng-if="yelp.hasMore"
+			immediate-check= "false"
+			on-infinite="loadMore()"
+		></ion-infinite-scroll>
 	</ion-content >
 </ion-pane >
 </body >
